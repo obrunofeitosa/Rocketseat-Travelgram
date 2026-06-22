@@ -17,6 +17,15 @@ body {
     color: var(--text-light);
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--brand-color);
+}
+
 /* ─── Navigation Bar ─────────────────────────────── */
 
 nav {
@@ -133,7 +142,6 @@ div.box-infos ul li {
 div.box-infos ul li img {
     width: 18px;
     height: 18px;
-    filter: invert(40%);
 }
 
 /* ─── Section of Photos ──────────────────────────── */
@@ -193,6 +201,3 @@ footer ul li {
     cursor: pointer;
 }
 
-footer ul li:hover {
-    color: var(--text-light);
-}
